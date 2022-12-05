@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/icons/logo-icon.ico">
     <title>Entrar</title>
 
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -20,8 +21,15 @@
             <img src="./assets/img/logo-1.png" alt="Logo">
             <h6>ENTRAR</h6>
 
-            <input type="text" name="email" placeholder="Seu e-mail">
-            <input type="password" name="senha" placeholder="Sua senha">
+            <div class="d-flex align-items-center">
+                <input type="text" name="email" placeholder="Seu e-mail">
+                <i class="bi bi-person icon_user"></i>
+            </div>
+            
+            <div class="d-flex aling-items-center">
+                <input type="password" name="senha" placeholder="Sua senha">
+                <i class="bi bi-lock icon_lock"></i>
+            </div>
 
             <button>ENTRAR</button>
 

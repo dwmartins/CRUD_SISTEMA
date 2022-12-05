@@ -6,6 +6,7 @@
     --bgInputsHoverBtn: #d8dadb71;
     --InputPlaceholder: #ffffff81;
     --bgForms: #08294146;
+    --bgIncos: #ffffffa1;
     --laranja: #fcaa1e;
 }
 
@@ -49,13 +50,18 @@
     margin-bottom: 30px;
 }
 
+.form_logar div {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
 .form_logar input {
     border: none;
     border-radius: 5px;
     background-color: var(--bgInputs);
     width: 100%;
     height: 40px;
-    margin-bottom: 20px;
     padding: 8px;
     color: #fff;
 }
@@ -99,4 +105,12 @@
 .form_logar span a {
     color: #fff;
     text-decoration: none;
+}
+
+.form_logar .icon_user, .form_logar .icon_lock {
+    color: var(--bgIncos);
+    font-size: 25px;
+    position: absolute;
+    right: 10px;
+    z-index: 999;
 }
