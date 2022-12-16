@@ -108,10 +108,12 @@
     text-decoration: none;
 }
 
-.form_logar .icon_user, .form_logar .icon_lock {
+.form_logar #icon_email, .form_logar #icon_senha {
     color: var(--bgIncos);
     font-size: 25px;
     position: absolute;
     right: 10px;
+    top: 2px;
     z-index: 999;
+    cursor: pointer;
 }
